@@ -3,14 +3,14 @@ class Dog
     @name, @breed = name, breed 
   end
   
-  def name= name
+  def name= (name, breed = "Mutt")
     @name = name
+    @breed = breed
   end
   
   def name
     @name
   end
-  
   
   def breed
     @breed
